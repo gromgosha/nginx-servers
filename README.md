@@ -1,6 +1,6 @@
 ## Repo to create droplets in DigitalOcean and to install nginx on it
-This is example of rebrain devops course task. First, I create 2 hosts on DigitalOcean provider, then I configure it. This are made via terraform. Additional output is ```ansible_inventory.yml``` file with droplet hostnames and ip addresses for starting ansible playbook.
-Then I install nginx on both droplets via ansible playbook and configuring server on it. 
+This is example of rebrain devops course task. First, I create 2 hosts on DigitalOcean provider, then I configure it. This are made via **terraform**. Additional output is ```ansible_inventory.yml``` file with droplet hostnames and ip addresses for starting ansible playbook.
+Then I install nginx on both droplets via **ansible playbook** and configuring server on it. 
 
 
 To install nginx on server with this role, you should know vault pass.
