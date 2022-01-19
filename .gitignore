@@ -1,0 +1,3 @@
+ansible.cfg
+hosts.yml
+.ansible_vault_pass

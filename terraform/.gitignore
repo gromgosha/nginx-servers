@@ -1,0 +1,3 @@
+*terraform*
+!terraform.tfvars.simple
+list_of_vps.txt

@@ -1,0 +1,8 @@
+---
+- name: Copy ssh key to server
+  template:
+    src: test
+    dest: "/root/.ssh/"
+    owner:  root
+    group: root
+    mode: 0600

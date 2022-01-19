@@ -1,0 +1,7 @@
+---
+- name: Install nginx on ubuntu
+  apt:
+    name: nginx=1.18*
+    update_cache: yes
+  notify:
+  - Start nginx

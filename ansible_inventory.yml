@@ -1,0 +1,3 @@
+[servers]
+app-gromgosha.devops.rebrain.srwx.net ansible_host=164.90.195.255
+app2-gromgosha.devops.rebrain.srwx.net ansible_host=164.90.203.17

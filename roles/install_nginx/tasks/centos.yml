@@ -1,0 +1,7 @@
+---
+- name: Install nginx on centos
+  yum:
+    name: nginx
+    update_cache: yes
+  notify:
+  - Start nginx

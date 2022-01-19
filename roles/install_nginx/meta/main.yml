@@ -1,0 +1,3 @@
+---
+dependencies:
+  - role: copy_ssh_key

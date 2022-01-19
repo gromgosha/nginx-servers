@@ -1,0 +1,9 @@
+server {
+    listen 80 default_server;
+
+    server_name "{{ inventory_hostname }}";
+
+    add_header Content-Type text/plain always;
+
+    return 200 "nginx is working";
+}
